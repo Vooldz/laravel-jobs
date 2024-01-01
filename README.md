@@ -11,8 +11,10 @@ To install this project, follow the steps below:
 3. Install dependencies: `composer install`
 4. Copy `.env.example` to `.env`: `cp .env.example .env`
 5. Generate app key: `php artisan key:generate`
-6. Run migrations: `php artisan migrate`
+6. Run migrations: `php artisan migrate --seed`
 7. Start the server: `php artisan serve`
+8. Login using email `user@gmail.com`
+9. password `12345678`
 
 ## Usage
 Once the server is running, you can access the platform by navigating to `http://localhost:8000` in your web browser. From there, you can create an account, post a job, or search for jobs.
